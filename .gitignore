@@ -1,0 +1,19 @@
+# Environment secrets
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python caches & IDE config
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Local databases (DO NOT PUSH TO HUGGING FACE)
+chroma_db/
+chroma_langchain_db/
